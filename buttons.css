@@ -1,0 +1,180 @@
+.youtube {
+  background-color: #ce0000;
+  color: #fff;
+  border: 2px solid #ce0000;
+  padding: 13px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .2s;
+}
+.youtube:hover {
+  background-color: #fff;
+  color: #ce0000;
+  border: 2px solid #ce0000;
+  font-size: medium;
+  padding: 13px 20px;
+  box-shadow: 2px 3px 7px rgba(199, 92, 2, 0.2);
+}
+.youtube:active {
+  box-shadow: none;
+}
+
+.join {
+  background-color: #fff;
+  color: #0652C8;
+  border: 1px solid #0652C8;
+  padding: 13px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .2s;
+}
+.join:hover {
+  background-color: #0652C8;
+  color: #fff;
+  border: 1px solid #0652C8;
+  padding: 13px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
+    }
+.join:active {
+  opacity: .7;
+}
+.tweet {
+  background-color: #0E92FC;
+  color: #fff;
+  border: none;
+  padding: 13px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .2s;
+}
+.tweet:hover {
+  box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.2);
+}
+.tweet:active {
+  box-shadow: none;
+}
+
+.uber {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+.uber:hover {
+  background-color: #2C2C2C;
+}
+.uber:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.amazon {
+  background-color: #FDD93D;
+  color: #000;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .2s;
+}
+.amazon:hover {
+  background-color: #F7C200;
+}
+.amazon:active {
+  background-color: #FDD93D;
+  opacity: .7;
+}
+
+.github {
+  background-color: #4BA74F;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+.github:hover {
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.github:active {
+  box-shadow: none;
+}
+
+.get_started {
+  background-color: #7651BA;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .2s;
+}
+.get_started:hover {
+  background-color: #5A378D;
+}
+.get_started:active {
+  opacity: .8;
+}
+
+.download {
+  background-color: #F8FFFF;
+  color: #5F6972;
+  padding: 11px 18px;
+  border: 1px solid #5F6972;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+.download:hover {
+  background-color: #5F6972;
+  color: #F8FFFF;
+  border: 1px solid #5F6972;
+}
+.download:active {
+  opacity: .8;
+}
+
+.apply {
+  background-color: #035BC9;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .15s;
+}
+.apply:hover {
+  background-color: #003A83;
+}
+.apply:active {
+  background-color: #012653;
+}
+
+.save {
+  background-color: #fff;
+  color: #025CC7;
+  padding: 11px 18px;
+  border: 1px solid #025cc7;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .15s;
+}
+.save:hover {
+  background-color: #DCEDFF;
+}
+.save:active {
+  box-shadow: 2px 3px 7px rgba(2, 92, 199, 0.2);
+}
+
+button {
+  margin-right: 10px;
+  margin-top: 50px;
+  font-size: medium;
+}
