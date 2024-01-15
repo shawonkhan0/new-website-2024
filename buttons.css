@@ -1,3 +1,8 @@
+button {
+  margin-right: 10px;
+  margin-top: 50px;
+  font-size: medium;
+}
 .youtube {
   background-color: #ce0000;
   color: #fff;
@@ -41,6 +46,7 @@
 .join:active {
   opacity: .7;
 }
+
 .tweet {
   background-color: #0E92FC;
   color: #fff;
@@ -171,10 +177,4 @@
 }
 .save:active {
   box-shadow: 2px 3px 7px rgba(2, 92, 199, 0.2);
-}
-
-button {
-  margin-right: 10px;
-  margin-top: 50px;
-  font-size: medium;
 }
