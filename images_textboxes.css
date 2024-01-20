@@ -1,0 +1,121 @@
+body {
+  margin-bottom: 100px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  margin: 10px 15px;
+}
+.cat1 {  
+  width: 200px;
+  border-radius: 10px;
+}
+.cat2 {  
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+.cat3 {  
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+input {
+  display: block;
+  margin: 20px;
+}
+input.search1 {
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+input.search2 {
+  border: none;
+  border-radius: 40px;
+  width: 600px;
+  padding: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .2);
+  padding: 10px;
+}
+.search2::placeholder {
+  padding-left: 10px;
+  font-size: 12px;
+}
+label {
+  margin-left: 20px;
+}
+.linkedin {
+  width: 350px;
+  display: inline-block;
+  align-items: center;
+  overflow: hidden;
+}
+input.email1 {
+  margin-top: 5px;
+  border: 1px solid #151515;
+  border-radius: 3px;
+  padding: 5px;
+  width: 300px;
+}
+p {
+  margin: 4px 20px 8px 20px;
+  font-size: 12px;
+}
+button.linkedin_btn {
+  padding: 10px 90px;
+  margin: 4px 25px;
+  width: 300px;
+  background-color: #2565c9;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button.linkedin_btn:hover {
+  box-shadow: 2px 2px 3px rgba(37, 101, 201, .2);
+}
+button.linkedin_btn:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.twetter {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #ff0000;
+}
+.tweet_images {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: inline;
+  vertical-align: middle;
+  margin: 5px;
+}
+.tweeter_bx {
+  display: inline;
+  margin: 0 5px 0 0;
+  padding: 5px;
+  border: none;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, .2);
+  width: 250px;
+  vertical-align: middle;
+}
+button.tweet {
+  background-color: #3F9BF7;
+  color: #fff;
+  border: none;
+  padding: 5px 13px;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+}
