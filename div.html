@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div</title>
+  <style>
+    .red_space {
+      background-color: #ff0000;
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+      display: inline-block;
+    }
+    .green_circle {
+      background-color: #00ff00;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 15px;
+      display: inline-block;
+    }
+    .feedback {
+      width: 250px;
+      border: 2px solid #dedede;
+      box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+      padding: 5px 10px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    button {
+      cursor: pointer;
+    }
+    button.yes {
+      margin: 0 5px 5px 15px;
+    }
+    button.yes:hover {
+      background-color: #04c704;
+      color: #fff;
+      border: 2px solid #04c704;
+      box-shadow: 0 0 15px rgba(0, 150, 0, .20);
+    }
+    button.yes:active {
+      background-color: #04c704;
+      color: #fff;
+      border: 2px solid #04c704;
+      box-shadow: 0 0 15px rgba(0, 150, 0, .20) inset;
+    }
+    button.no:hover {
+      background-color: #ff0000;
+      color: #fff;
+      border: 2px solid #ff0000;
+      box-shadow: 0 0 15px rgba(150, 0, 0, 0.2);
+    }
+    button.no:active {
+      border: 2px solid #ff0000;
+      box-shadow: 0 0 15px rgba(150, 0, 0, 0.2) inset;
+    }
+    .youtube_music {
+      width: 320px;
+      background-color: #212121;
+      color: #fff;
+      padding: 5px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 10px;
+    }
+    .person1{
+      font-family: Arial, Helvetica, sans-serif;
+      display: inline-block;
+      box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+      border-radius: 5px;
+      padding: 0 0 15px 0 ;
+      margin-right: 10px;
+    }   
+    .person1 img{
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: center;
+      display: inline-block;
+      border-radius: 5px 5px 0 0;
+    }
+    .description{
+      margin-left: 5px;
+    }
+    .name{
+      margin: 5px 0 0 0;
+    }
+    .descrip{
+      margin-top: 5px;
+      font-size: 12px;
+      color: #6a6a6a;
+    }
+    .add_frnd{
+      padding: 3px 6px;
+      background-color: #2F7EFF;
+      border: 2px solid #2F7EFF;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    .add_frnd:hover{
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    .add_frnd:active{
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
+    }
+  </style>
+</head>
+<body>
+  <div class="red_space"></div>
+  <div class="green_circle"></div>
+  <div class="feedback">
+    <p>Satisfied with our service?</p>
+    <button class="yes">Yes</button>
+    <button class="no">No</button>
+  </div>
+  <div class="youtube_music">
+    <h2>Install YouTube Music</h2>
+    <p>Add YouTube Music to your desktop for quick and easily access</p>
+  </div>
+  <div class="person1">
+    <img src="images/cat.jpg" alt="cat">
+    <div class="description">
+      <h3 class="name">Oliver</h3>
+      <p class="descrip">2 mutual friend</p>
+      <button class="add_frnd">Add Friend</button>
+    </div>
+  </div>
+  <div class="person1">
+    <img src="images/cat.jpg" alt="cat">
+    <div class="description">
+      <h3 class="name">Oliver</h3>
+      <p class="descrip">2 mutual friend</p>
+      <button class="add_frnd">Add Friend</button>
+    </div>
+  </div>
+  <div class="person1">
+    <img src="images/cat.jpg" alt="cat">
+    <div class="description">
+      <h3 class="name">Oliver</h3>
+      <p class="descrip">2 mutual friend</p>
+      <button class="add_frnd">Add Friend</button>
+    </div>
+  </div>
+  
+</body>
+</html>

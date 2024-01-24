@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .unsername {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .email {
+      display: block;
+    }
+    .task2 {
+      width: 300px;
+      display: inline-block;
+    }
+    .notes{
+      display: inline-block;
+      width: 200px;
+      vertical-align: middle;
+    }
+    .btn_comnts{
+      display: inline-block;
+      top: 20px;
+    }
+    button {
+      cursor: pointer;
+    }
+    .yes:hover {
+      color: #fff;
+      background-color: #00F100;
+      border: 2px solid #00F100;
+      box-shadow: 1px 1px 2px rgba(0, 20, 0, .2);
+    }
+    .yes:active {
+      box-shadow: 0 0 1px rgba(0, 20, 0, .2) inset;
+    }
+    .no:hover {
+      color: #fff;
+      background-color: #f10000;
+      border: 2px solid #f10000;
+      box-shadow: 2px 2px 2px rgba(30, 0, 0, .2);
+    }
+    .no:active {
+      box-shadow: 1px 1px 1px rgba(20, 0, 0, .2) inset;
+    }
+    .google_srcbx {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    .google_srcbx img {
+      width: 150px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .google_search_bar {
+      width: 350px;
+      padding: 7px 15px;
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+      font-size: 12px;
+    }
+    .facebook_signup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 375px;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .facebook_signup input {
+      margin-top: 10px;
+      padding: 7px;
+      border: 1px solid #adabab;
+      border-radius: 5px;
+    }
+    .facebook_email {
+      display: block;
+      width: 358px;
+      margin-bottom: 10px;
+    }
+    .fackbook_btn {
+      background-color: #3276F8;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      width: 375px;
+      cursor: pointer;
+      font-weight: 700;
+      line-height: 15px;
+      border-radius: 6px;
+    }
+    .uber_sign_form {
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+    .uber_sign_form h2 {
+    }
+    .uber_form input {
+      background-color: #F0F0F0;
+      color: #757575;
+      border: none;
+      padding: 8px 10px;
+      margin: 3px 2px;
+      width: 250px;
+      font-size: 11px;
+    }
+    .uber_btn {
+      margin-top: 25px;
+    }
+    .uber_btn button {
+      border: none;
+      padding: 10px 12px;
+      font-size: 12px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .rqst {
+      background-color: #000;
+      color: #fff;
+    }
+    
+  </style>
+  <title>Display</title>
+</head>
+<body>
+  
+  <div class="task1">
+    <input class="unsername" type="text" placeholder="Name">
+    <input class="email" type="email" placeholder="Email">
+  </div>
+  <div class="task2">
+    <p class="notes">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <div class="btn_comnts">
+      <button class="yes">Yes</button>
+      <button class="no">No</button>
+    </div>
+  </div>
+  <div class="google_srcbx">
+    <img src="images/google-logo.png" alt="">
+    <input class="google_search_bar" type="text" placeholder="Search Google or type a URL">
+  </div>
+
+  <div class="facebook_signup">
+    <div class="facebook_name">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+    </div>
+    <input class="facebook_email" type="email" placeholder="Email">
+    <button class="fackbook_btn">Sign Up</button>
+  </div>
+  <div class="uber_sign_form">
+    <h2>Request a ride now</h2>
+    <div class="uber_form">
+      <input type="text" placeholder="Enter pikcup location">
+      <input type="text" placeholder="Enter destination">
+    </div>
+    <div class="uber_btn">
+      <button class="rqst">Request now</button>
+      <button class="save_ltr">Schedule for later</button>
+    </div>
+  </div>
+
+</body>
+</html>
